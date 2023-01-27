@@ -10,4 +10,3 @@
   <link rel="stylesheet" href="./layout/css/style.css">
 </head>
 <body>
-  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum autem id hic praesentium aut quia. Culpa iure aspernatur dicta blanditiis iusto voluptatum ea itaque facere laborum quod at, voluptate, magni vero error id excepturi explicabo! Dolorem exercitationem adipisci omnis iure laboriosam eveniet, eaque, ratione, quaerat laudantium esse quisquam iste. Error?
