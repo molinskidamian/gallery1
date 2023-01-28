@@ -10,5 +10,5 @@
         exit();
     }
 
-    echo 'połączono z bazą danych.';
+    // echo 'połączono z bazą danych.';
 ?>

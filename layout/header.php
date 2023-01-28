@@ -10,3 +10,6 @@
   <link rel="stylesheet" href="./layout/css/style.css">
 </head>
 <body>
+  <header class="main-header">
+    <?php include './layout/components/main-nav/main-nav.php'; ?>
+  </header>

@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
+:root {
+    --main-bg-light: #eff3f6;
+    --border-light: #ebebeb;
+    --white-bg-color: #fff;
+    --main-nav-link: #9fa9ba;
+    --main-nav-link--active: #354052;
+}
+
+ul {
+    list-style: none;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     font-family: "Poppins", sans-serif;
@@ -8,6 +20,34 @@ body {
         sans-serif;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
+    background-color: var(--main-bg-light);
+}
+
+.main-header {
+    height: 69px;
+    background-color: var(--white-bg-color);
+    border-bottom: 1px solid var(--border-light);
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-weight: 600;
+}
+
+.main-nav--item {
+    padding-left: 1rem;
+}
+
+.main-nav--link {
+    color: var(--main-nav-link);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.main-nav--link:hover {
+    color: var(--main-nav-link--active);
 }
 
 .success {
