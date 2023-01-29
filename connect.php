@@ -11,4 +11,3 @@
     }
 
     // echo 'połączono z bazą danych.';
-?>

@@ -1,7 +1,15 @@
 <?php
+ob_start();
+function autoload($className)
+{
+  include './class/' . $className . '.class.php';
+}
+
+spl_autoload_register('autoload');
+
 require_once('./config.php');
 
-if(!isset($_GET['page'])){
+if (!isset($_GET['page'])) {
   $page_title = 'Strona główna - default';
   $page_description = 'Opis: Strona główna.';
   $page_url = './controllers/start.php';
@@ -37,6 +45,6 @@ if(!isset($_GET['page'])){
 }
 
 
-  include_once('./layout/header.php');
-  include_once($page_url);
-  include_once('./layout/footer.php');
+include_once('./layout/header.php');
+include_once($page_url);
+include_once('./layout/footer.php');

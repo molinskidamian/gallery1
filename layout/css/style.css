@@ -12,6 +12,16 @@ ul {
     list-style: none;
 }
 
+.success {
+    color: green;
+    font-weight: 500;
+}
+
+.error {
+    color: red;
+    font-weight: 500;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     font-family: "Poppins", sans-serif;
@@ -27,35 +37,27 @@ body {
     height: 69px;
     background-color: var(--white-bg-color);
     border-bottom: 1px solid var(--border-light);
-}
-
-.main-nav {
     display: flex;
     align-items: center;
-    height: 100%;
-    font-weight: 600;
+    justify-content: space-between;
 }
 
-.main-nav--item {
+.main-header > nav > ul {
+    display: flex;
+    align-items: center;
+    /* margin-left: 1rem; */
+}
+
+.main-header > nav {
+    margin: 0 1rem;
+}
+
+.user-nav__item,
+.main-nav__item {
     padding-left: 1rem;
 }
 
-.main-nav--link {
-    color: var(--main-nav-link);
-    text-decoration: none;
-    text-transform: capitalize;
-}
-
-.main-nav--link:hover {
-    color: var(--main-nav-link--active);
-}
-
-.success {
-    color: green;
-    font-weight: 500;
-}
-
-.error {
-    color: red;
-    font-weight: 500;
+.user-nav__item:first-child,
+.main-nav__item:first-child {
+    padding-left: 0;
 }
